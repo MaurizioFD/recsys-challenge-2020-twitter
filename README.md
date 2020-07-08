@@ -57,14 +57,14 @@ In order to run the code it is necessary to have:
 * **Pip**: version 20.1.1.
 * **CUDA** is also required.
 
-If you do not have Python already installed, you can find it here (https://www.python.org/downloads/).
+If you do not have Python already installed, you can find it here: https://www.python.org/downloads/.
 
 Install the python dependecies with the following bash command:
 ```shell script
 pip install -r requirements.txt
 ```
 
-If you do not have the dataset, you can download it from here https://recsys-twitter.com/data/show-downloads (registration is required).
+If you do not have the dataset, you can download it from here: https://recsys-twitter.com/data/show-downloads (registration is required).
 
 After the dataset has been downloaded (without modifying the file names) and placed in the repository folder, you can use the following script to compress and move the dataset in the right folder.
 ```shell script
@@ -74,14 +74,14 @@ chmod +x compress_dataset.sh
 
 ## Run the code
 
-Split the **new_train.csv.gz** dataset into **holdout_new_train.csv.gz** and **holdout_new_test.csv.gz**.
+Split the training set into **holdout_new_train.csv.gz** and **holdout_new_test.csv.gz**.
 
 ```shell script
 cp ./Utils/Data/Split/HoldoutSplit.py .
 python HoldoutSplit.py
 ```
 
-Split the **new_train.csv.gz** dataset into **cherry_train.csv.gz** and **cherry_val.csv.gz**.
+Split the resulting training set into **cherry_train.csv.gz** and **cherry_val.csv.gz**.
 
 ```shell script
 cp ./Utils/Data/Split/HoldoutCherrySplit.py .
@@ -93,7 +93,7 @@ Train the neural network:
 chmod +x nn_run.sh
 ./nn_run.sh
 ```
-this script trains a bunch of NNs and places the infered probabilities in the folder "**./Dataset/Features/{test_dataset}/ensembling**" with filename "**nn_predictions_{class_label}_{model_id}.csv**"
+this script trains a bunch of NNs and places the infered probabilities in the folder "**./Dataset/Features/{dataset_name}/ensembling**" with filename "**nn_predictions_{class_label}_{model_id}.csv**"
 
 For our last submissions please use:
 ```shell script 
