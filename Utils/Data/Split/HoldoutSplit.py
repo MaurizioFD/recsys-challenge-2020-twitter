@@ -9,7 +9,7 @@ STARTING_TIME = 1580947200
 SECONDS_IN_A_DAY = 86400
 SECONDS_IN_A_WEEK = SECONDS_IN_A_DAY * 7
 
-def holdout_split_train_test(input_dataset_id: str, pc_hold_out: float = 0.30, random_seed = 888):
+def holdout_split_train_test(input_dataset_id: str, pc_hold_out: float = 0.10, random_seed = 888):
     input_file_name = f"{RootPath.get_dataset_path()}/{input_dataset_id}.csv.gz"
     train_file_name = f"{RootPath.get_dataset_path()}/holdout_new_train.csv.gz"
     val_file_name = f"{RootPath.get_dataset_path()}/holdout_new_test.csv.gz"
