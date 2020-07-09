@@ -10,11 +10,11 @@
 </p>
 
 ## About the challenge
-[Twitter](https://www.twitter.com) is what’s happening in the world and what people are talking about right now.
+From the Challenge website: "[Twitter](https://www.twitter.com) is what’s happening in the world and what people are talking about right now.
 On Twitter, live comes to life as conversations unfold, showing you all sides of the story. From breaking news and 
-entertainment to sports, politics and everyday interests, when things happen in the world, they happen first on Twitter.
+entertainment to sports, politics and everyday interests, when things happen in the world, they happen first on Twitter."
 
-On the platform, users post and engage with (in the form of Likes, Replies, Retweets and Retweets with comments) content
+"On the platform, users post and engage with (in the form of Likes, Replies, Retweets and Retweets with comments) content
 known as “Tweets”. This challenge aims to evaluate novel algorithms for predicting different engagement rates at a
 large scale, and push the state-of-the-art in recommender systems. Following the success and advancements in the
 domain of top-K recommendations, the [challenge](https://recsys-twitter.com/) aim to encourage the development of new approaches by releasing the largest
@@ -22,10 +22,10 @@ real-world dataset to predict user engagements. The dataset comprises of roughly
 along with user and engagement features, that span a period of 2 weeks and contain public interactions
 (Like, Reply, Retweet and Retweet with comment), as well as 100 million pseudo negatives which are randomly
 sampled from the public follow graph. While sampling the latter pool of Tweets, Twitter takes special care about
-preserving user privacy.
+preserving user privacy."
 
 ## Team members
-We partecipated in the challenge as BanaNeverAlone, a team of 5 MSc students from Politecnico di Milano:
+We participated in the challenge as BanaNeverAlone, a team of 5 MSc students from Politecnico di Milano:
 
 * **[Luca Conterio](https://github.com/luca-conterio)**
 * **[Andrea Donati](https://github.com/AndreaDonati)**
@@ -36,6 +36,9 @@ We partecipated in the challenge as BanaNeverAlone, a team of 5 MSc students fro
 We worked under the supervision of two PhD students:
 * **[Cesare Bernardis](https://github.com/cesarebernardis)**
 * **[Maurizio Ferrari Dacrema](https://github.com/maurizioFD)**
+
+## Paper
+The article describing the approach we adopted is available [here](Paper/Multi_Objective_Blended_Ensemble_appendix.pdf).
 
 ## Features
 
