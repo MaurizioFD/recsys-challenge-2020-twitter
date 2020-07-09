@@ -38,7 +38,7 @@ We worked under the supervision of two PhD students:
 * **[Maurizio Ferrari Dacrema](https://github.com/maurizioFD)**
 
 ## Paper
-The article describing the approach we adopted is available [here](Paper/Multi_Objective_Blended_Ensemble_appendix.pdf).
+The article describing the approach we adopted is available [here](Paper/Multi_Objective_Blended_Ensemble_appendix.pdf) (under review).
 
 ## Features
 
