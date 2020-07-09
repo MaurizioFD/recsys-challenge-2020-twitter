@@ -79,7 +79,7 @@ For each dataset we have the following features:
  
  ### Mapped Features
  
- Those features are just the same as raw features but each identifier has been mapped to a positive integer:
+ These features are just the same as raw features but each identifier has been mapped to a positive integer:
  
  - **mapped_feature_tweet_hashtags**: list of int:
  <br>List of hashtags present in the tweet. *None* otherwise.
@@ -100,7 +100,7 @@ For each dataset we have the following features:
  
  ### Generated Features
  
- Those features has been extracted from the previous one. All the identifiers used in these features are mapped using the internal dictionary.
+ These features has been extracted from the previous ones. All the identifiers used in these features are mapped using the internal dictionary.
 
  ### Generated Tweet Features
  

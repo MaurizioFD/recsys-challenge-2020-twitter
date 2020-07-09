@@ -10,14 +10,14 @@
 </p>
 
 ## About the challenge
-From the Challenge website: "[Twitter](https://www.twitter.com) is what’s happening in the world and what people are talking about right now.
+From the [Challenge](https://recsys-twitter.com/) website: "[Twitter](https://www.twitter.com) is what’s happening in the world and what people are talking about right now.
 On Twitter, live comes to life as conversations unfold, showing you all sides of the story. From breaking news and 
 entertainment to sports, politics and everyday interests, when things happen in the world, they happen first on Twitter."
 
 "On the platform, users post and engage with (in the form of Likes, Replies, Retweets and Retweets with comments) content
 known as “Tweets”. This challenge aims to evaluate novel algorithms for predicting different engagement rates at a
 large scale, and push the state-of-the-art in recommender systems. Following the success and advancements in the
-domain of top-K recommendations, the [challenge](https://recsys-twitter.com/) aim to encourage the development of new approaches by releasing the largest
+domain of top-K recommendations, the challenge aim to encourage the development of new approaches by releasing the largest
 real-world dataset to predict user engagements. The dataset comprises of roughly 200 million public engagements,
 along with user and engagement features, that span a period of 2 weeks and contain public interactions
 (Like, Reply, Retweet and Retweet with comment), as well as 100 million pseudo negatives which are randomly
@@ -43,7 +43,7 @@ The article describing the approach we adopted is available [here](Paper/Multi_O
 ## Features
 
 The features extracted from the dataset are listed and 
-described [here](Utils/Data/Features/README.md) (the list contains all the feature we created including the ones
+described [here](Utils/Data/Features/README.md) (the list contains all the most relevant features we created, including some
 we did not use for the submission).
 
 ## Models
