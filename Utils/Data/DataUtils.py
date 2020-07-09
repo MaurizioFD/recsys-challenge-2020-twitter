@@ -66,7 +66,7 @@ DATASET_IDS = [
     # "train_days_1234",
     # "train_days_12345",
     # "train_days_123456",
-    # "test",
+    "test",
     # Removing those datasets to speed up the generation of features
     # "val_days_2",
     # "val_days_3",
@@ -79,8 +79,8 @@ DATASET_IDS = [
     # "new_train",
     "new_test",
     # "new_val",
-    # "holdout_new_train",
-    # "holdout_new_test",
+    "holdout_new_train",
+    "holdout_new_test",
     "cherry_train",
     "cherry_val",
     "last_test"

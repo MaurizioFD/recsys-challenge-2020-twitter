@@ -210,10 +210,12 @@ class IsVerifiedUserBasicFeatureDictArray(UserBasicFeatureDictArrayNumpy):
         creator_last_test_target_feature = RawFeatureCreatorIsVerified("last_test")
         engager_train_df = engager_train_target_feature.load_or_create()
         engager_test_df = engager_test_target_feature.load_or_create()
+        creator_train_df = creator_train_target_feature.load_or_create()
+        creator_test_df = creator_test_target_feature.load_or_create()
         last_engager_test_df = engager_last_test_target_feature.load_or_create()
         last_creator_test_df = creator_last_test_target_feature.load_or_create()
-        engager_test_df = pd.concat([engager_test_df, last_engager_test_df]).reset_index()
-        creator_test_df = pd.concat([creator_test_df, last_creator_test_df]).reset_index()
+        engager_test_df = pd.concat([engager_test_df, last_engager_test_df])
+        creator_test_df = pd.concat([creator_test_df, last_creator_test_df])
         df[column] = engager_train_df[engager_train_target_feature.feature_name].append(
             engager_test_df[engager_test_target_feature.feature_name]).append(
             creator_train_df[creator_train_target_feature.feature_name]).append(
