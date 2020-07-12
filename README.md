@@ -6,7 +6,9 @@
     <img width="10%" src="https://seeklogo.com/images/T/twitter-logo-A84FE9258E-seeklogo.com.png" />
 </p>
 <p align="center">
+  <a href="http://recsys.deib.polimi.it">
     <img src="https://i.imgur.com/mPb3Qbd.gif" width="180" />
+  </a>
 </p>
 
 ## About the challenge
