@@ -206,7 +206,7 @@ class IsVerifiedUserBasicFeatureDictArray(UserBasicFeatureDictArrayNumpy):
         engager_test_target_feature = RawFeatureEngagerIsVerified("test")
         creator_train_target_feature = RawFeatureCreatorIsVerified("train")
         creator_test_target_feature = RawFeatureCreatorIsVerified("test")
-        engager_last_test_target_feature = RawFeatureCreatorIsVerified("last_test")
+        engager_last_test_target_feature = RawFeatureEngagerIsVerified("last_test")
         creator_last_test_target_feature = RawFeatureCreatorIsVerified("last_test")
         engager_train_df = engager_train_target_feature.load_or_create()
         engager_test_df = engager_test_target_feature.load_or_create()
