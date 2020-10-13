@@ -212,7 +212,7 @@ class RawFeatureEngagementLikeTimestamp(RawFeaturePickle):
         super().__init__("raw_feature_engagement_like_timestamp", dataset_id)
 
 
-def get_raw_column(column, dataset_id):
+def _get_raw_column(column, dataset_id):
     df = pd.read_csv(f"{RootPath.get_dataset_path()}/{dataset_id}.csv.gz", compression='gzip', sep='', nrows=1)
     columns = len(df.columns)
     if columns == 20:
