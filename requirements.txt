@@ -16,7 +16,7 @@ bayesian-optimization==1.1.0
 graphviz==0.13.2
 lightgbm==2.3.1
 catboost==0.23
-requests==2.23.0
+requests==2.31.0
 eli5==0.10.1
 billiard==3.6.3.0
 transformers==2.9.1
