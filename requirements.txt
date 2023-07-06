@@ -8,7 +8,7 @@ numpy==1.18.1
 pandas==1.0.1
 scikit-learn==0.22.2
 scikit-optimize==0.7.4
-scipy==1.4.1
+scipy==1.10.0
 tqdm==4.43.0
 boto3==1.12.14
 xgboost==1.0.2
